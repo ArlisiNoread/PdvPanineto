@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/pdv.css">
+    <link rel="stylesheet" href="assets/css/botonCerrado.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet"> 
 
@@ -26,6 +27,7 @@
                 <a class="navbar-brand" href="#">
                     <i class="fa fa-globe"></i>&nbsp;ORDEN
                 </a>
+                <button type="button" class="btn btn-light">Download</button>
             </div>
         </nav>
     </div>
@@ -124,7 +126,7 @@
                             <p>$60</p>
                         </div>
                         <div class="col col-sm-2">
-                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn btn-modificado">+</button>
                         </div>
                         
                     </div>
@@ -136,7 +138,7 @@
                             <p>$45</p>
                         </div>
                         <div class="col col-sm-2">
-                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn btn-modificado">+</button>
                         </div>
                         
                     </div>
@@ -191,7 +193,7 @@
                             <p>$30</p>
                         </div>
                         <div class="col col-sm-2">
-                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn btn-modificado">+</button>
                         </div>
                         
                     </div>
@@ -203,7 +205,7 @@
                             <p>$45</p>
                         </div>
                         <div class="col col-sm-2">
-                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn btn-modificado">+</button>
                         </div>
                         
                     </div>
@@ -243,7 +245,7 @@
                             <p>$30</p>
                         </div>
                         <div class="col col-sm-2">
-                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn btn-modificado">+</button>
                         </div>
                         
                     </div>
@@ -255,7 +257,7 @@
                             <p>$45</p>
                         </div>
                         <div class="col col-sm-2">
-                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn btn-modificado">+</button>
                         </div>
                         
                     </div>
@@ -301,16 +303,21 @@
     </div>
     
     
-    
-    <div class="container check-out-final">
-        <div class="container inner-check-out-final">
-            <p>Cuadro</p>
+    <div id="masInformacion-flotante" class="container">
+        <a id="boton-cerrado-masInformacion-flotante" class="close"></a>
+        <p>Es <b>CO y Fundadora de Neurochange Consulting</b> y diseñadora del sistema <b>NeuroGame.</b></p>
+        <div class="container" style="overflow-y: scroll">
+            <p>Graduada en <b>Comunicación y Relaciones Públicas por la Universidad Latinoamericana</b>: cuenta con un <b>Diplomado en Desarrollo humano por la universidad Iberoamericana</b> y actualmente estudia la especialización en <b>Inteligencias Múltiples</b> para el desarrollo de habilidades cognitivas y ejecutivas en Asociación Educar en Neurociencias: <b>Buenos Aires, Argentina.</b></p>
+        
+           
+ 
         </div>
     </div>
     
     
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/botonCheckout.js"></script>
 </body>
 
 </html>
