@@ -19,16 +19,29 @@
     !width: 100%; 
 }
 
-
-
 .headerLista{
-    background-color: aquamarine;
-    padding: 2.5vw;
     
 }
 
+.headerLista{
+    background-color: #f2f2f2;
+    background-size: cover;
+    border-bottom-color: #DDDDDD ;
+    padding: 2.5vw;
+}
+
+.Paninis{
+    text-decoration: none;
+    color:black;
+}
+
 .botonExpansor {
-    background-color: grey;
+    background-color: #DDDDDD;
+}
+
+.btn{
+    border-radius: 100%;
+    background-color: #2ECC40;
     
 }
 
@@ -37,4 +50,8 @@
     position: fixed;
     top: 40;
     
+}
+
+.fa-plus {
+    color: white;
 }
