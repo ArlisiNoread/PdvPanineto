@@ -63,7 +63,6 @@
     border-bottom-color: #DDDDDD;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-
     font-family: 'Maven Pro', sans-serif;
     font-weight: 700;
     text-align: right;
@@ -79,11 +78,34 @@
 
 
 .headerLista{
-    background-color: #ffe6cc;
+    background-color: #CEFF9D;
     border-bottom-color: #DDDDDD;
     padding: 2.5vw;
 }
 
+.headerLista2{
+    background-color: #B2FFFE;
+    border-bottom-color: #DDDDDD;
+    padding: 2.5vw;
+}
+
+.headerLista3{
+    background-color: #FF756E;
+    border-bottom-color: #DDDDDD;
+    padding: 2.5vw;
+}
+
+.headerLista4{
+    background-color: #BDACE8;
+    border-bottom-color: #DDDDDD;
+    padding: 2.5vw;
+}
+
+.headerLista5{
+    background-color: #E8CD8B;
+    border-bottom-color: #DDDDDD;
+    padding: 2.5vw;
+}
 
 .div-boton-expansor {
     margin-left: 6vw;
