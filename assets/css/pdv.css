@@ -38,19 +38,54 @@
     background-color: #DDDDDD;
 }
 
-.btn{
+.btn-modificado{
     border-radius: 100%;
     background-color: #2ECC40;
     
 }
 
 .inner-check-out-final {
+    background-color: chartreuse;
     !z-index: -1000;
     position: fixed;
     top: 40;
+    height: 100px;
+    text-align: center;
     
 }
 
 .fa-plus {
     color: white;
 }
+
+
+
+#masInformacion-flotante {
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    background-color: white;
+    z-index: -550;
+    border-radius: 5%;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    
+}
+
+#masInformacion-flotante .container{
+    height: 80%;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+
