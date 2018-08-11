@@ -1,5 +1,7 @@
 $(document).ready(function() {
-    $("#boton-abierto-masInformacion-flotante").click(function(){
+    $("#checkout").click(function(){
+        
+            console.log(itemsCarrito[0][1]);
             $('#masInformacion-flotante').css({
                 'z-index' : '550',
                 'visibility' : 'visible', 
