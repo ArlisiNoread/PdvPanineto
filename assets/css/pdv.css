@@ -31,3 +31,10 @@
     background-color: grey;
     
 }
+
+.inner-check-out-final {
+    !z-index: -1000;
+    position: fixed;
+    top: 40;
+    
+}
